@@ -34,4 +34,6 @@ class Stack(object):
     def size(self):
         return "Stack length: {0}. Places left: {1}".format(len(self.items), self.length - len(self.items))
 
+
+
     

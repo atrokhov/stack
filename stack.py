@@ -7,14 +7,14 @@ class Stack(object):
     def is_empty(self):
         if len(self.items) == 0:
             return True
-        # This else need for returning False, not None
+        # This 'else' need for returning False, not None
         else:
             return False
 
     def is_full(self):
         if len(self.items) >= self.length:
             return True
-        # This else need for returning False, not None
+        # This 'else' need for returning False, not None
         else:
             return False
 
